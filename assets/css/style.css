@@ -3,7 +3,7 @@
 }
 body{
   font-family: 'Montserrat', sans-serif;
-  
+
 }
 .container{
   max-width: 1200px;
@@ -42,6 +42,7 @@ body{
   padding-top: 87px;
   background-image: url(../../img/hd-Ellipse.svg);
   background-repeat: no-repeat;
+  background-position: 249px 145px;
 }
 .header-title{
   max-width: 522px;
@@ -70,4 +71,58 @@ body{
   line-height: 140%;
   color: #FFFFFF;
   text-decoration: none;
+}
+.description {
+  padding-top: 81px;
+  background-color: #ffffff;
+}
+
+.description-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-text {
+  padding-top: 40px;
+}
+.title {
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.description-expl {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #434242;
+  padding-right: 28px;
+  margin-bottom: 24px;
+}
+span{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+.description-list {
+  padding-top: 16px ;
+}
+
+.description-list-item {
+  margin-bottom: 25px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #434242;
+  list-style-type: disc;
+  list-style-position: inside;
+  
+}
+.description-list-item::marker{
+  color: #961914;
+
 }
