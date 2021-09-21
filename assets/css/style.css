@@ -42,10 +42,11 @@ body{
   padding-top: 87px;
   background-image: url(../../img/hd-Ellipse.svg);
   background-repeat: no-repeat;
-  background-position: 249px 145px;
+  background-position: 169px 144px;
 }
 .header-title{
-  max-width: 522px;
+  font-family: Oswald;
+  max-width: 490px;
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 54px;
@@ -102,7 +103,7 @@ body{
   padding-right: 28px;
   margin-bottom: 24px;
 }
-span{
+.bold{
   font-weight: 600;
   font-size: 18px;
   line-height: 130%;
@@ -126,3 +127,43 @@ span{
   color: #961914;
 
 }
+.index {
+  padding-top: 80px;
+}
+
+.index-boxes {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../../img/bg-index.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px 80px;
+  
+}
+.index-box {
+}
+.index-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 200%;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.index-composition {
+  display: flex;
+  justify-content: space-between;
+}
+.index-composition-l {
+  margin-right: 72px;
+}
+.composition-item-img{
+  margin-right: 16px;
+}
+.composition-item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 250%;
+  color: #434242;
+}
+
