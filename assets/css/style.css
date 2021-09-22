@@ -23,7 +23,6 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  
 }
 .menu-list{
   display: flex;
@@ -261,6 +260,7 @@ margin-bottom: 16px;
 }
 .calculate-btn {
   background: #961914;
+  border: none;
   border-radius: 8px;
   padding: 13px 42px;
   font-weight: 600;
