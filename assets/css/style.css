@@ -166,4 +166,106 @@ body{
   line-height: 250%;
   color: #434242;
 }
+.ration {
+  padding-top: 180px;
+}
+.ration-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 74px;
+  background-image: url(../../img/ration-ellipse.svg);
+  background-size: contain;
+  background-position: 185px;
+  background-repeat: no-repeat;
+}
+.ration-title{
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  
+}
+.ration-text {
+  max-width: 777px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+.ration-views {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.ration-view {
+  max-width: 280px;
 
+}
+.view-name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  padding-top: 45px;
+}
+.view-sort {
+font-weight: normal;
+font-size: 13px;
+line-height: 130%;
+color: #9F9E9D;
+margin-bottom: 16px;
+}
+.view-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #434242;
+  margin-bottom: 11px;
+}
+
+.view-size {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 130%;
+  color: #9F9E9D;
+  margin-bottom: 24px;
+}
+.ration-btn {
+  border: 1px solid #961914;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  text-align: center;
+  color: #961914;
+  padding: 13px 42px;
+}
+.calculate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 121px 54px 50px;
+  background-image: url(../../img/bg-index.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.colculate-text {
+  max-width: 705px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.calculate-btn {
+  background: #961914;
+  border-radius: 8px;
+  padding: 13px 42px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
