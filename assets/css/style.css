@@ -9,6 +9,12 @@ body{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: #434242;
 
 }
 .header{
@@ -41,7 +47,7 @@ body{
   padding-top: 87px;
   background-image: url(../../img/hd-Ellipse.svg);
   background-repeat: no-repeat;
-  background-position: 169px 144px;
+  background-position: 18% 43%;
 }
 .header-title{
   font-family: Oswald;
@@ -139,8 +145,6 @@ body{
   padding: 32px 80px;
   
 }
-.index-box {
-}
 .index-subtitle {
   font-weight: 600;
   font-size: 14px;
@@ -167,6 +171,7 @@ body{
 }
 .ration {
   padding-top: 180px;
+  margin-bottom: 180px;
 }
 .ration-header {
   display: flex;
@@ -175,16 +180,8 @@ body{
   margin-bottom: 74px;
   background-image: url(../../img/ration-ellipse.svg);
   background-size: contain;
-  background-position: 185px;
+  background-position: 149px -2px;
   background-repeat: no-repeat;
-}
-.ration-title{
-  font-family: Oswald;
-  font-weight: bold;
-  font-size: 46px;
-  line-height: 130%;
-  letter-spacing: 0.02em;
-  
 }
 .ration-text {
   max-width: 777px;
@@ -268,4 +265,100 @@ margin-bottom: 16px;
   line-height: 140%;
   text-align: center;
   color: #FFFFFF;
+}
+.quality {
+  background-image: url(../../img/Vector\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 180px;
+}
+
+.quality-title{
+  /* background-image: url(../../img/vector\ article.svg);
+  background-repeat: no-repeat; 
+  не получается выролвнять веторнуюкартинку вылазит*/
+}
+.quality-items{
+  display: flex;
+  justify-content: space-between;
+}
+.quality-item{
+  max-width: 300px;
+}
+.quality-item-img {
+  margin-bottom: 16px;
+}
+.quality-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 8px;
+}
+.quality-item p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+}
+.article{
+  margin-bottom: 180px;
+  background-image: url(../../img/bg-article.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+/* полоска на фоне не так как на макете ?*/
+}
+.article-info{
+  display: flex;
+  justify-content: space-between;
+
+}
+.article-img {
+  padding: 80px 0;
+}
+.article-content {
+  padding-top: 120px;
+  max-width: 523px;
+}
+.article-title{
+  background-image: url(../../img/vector\ article.svg);
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: 92% 66%;
+}
+.article-text {
+  margin-top: 40px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: #434242;
+}
+.article-text p{
+  margin-bottom: 20px;
+}
+.delivery {
+  margin-bottom: 180px;
+}
+.delivery-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.delivery-item {
+  max-width: 300px;
+}
+.delivery-item-img {
+  margin-bottom: 20px;
+}
+.delivery-item-img img{
+  margin-right: 42px;
+}
+.delivery-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 8px;
+}
+.delivery-subtitle p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
 }
