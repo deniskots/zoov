@@ -250,7 +250,7 @@ margin-bottom: 16px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.colculate-text {
+.calculate-text {
   max-width: 705px;
   font-weight: 500;
   font-size: 28px;
@@ -299,7 +299,9 @@ margin-bottom: 16px;
   margin-bottom: 180px;
   background-image: url(../../img/bg-article.svg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  width: 100%;
 
 }
 .article-info{
@@ -522,18 +524,66 @@ textarea{
 
 /* responsive */
 
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .header-content {
     padding-top: 87px;
     background-image: none;
 }
-  
-}
+  .description-box {
+    flex-direction: column;
+  }
+  .index{
+    padding-top: 10px;
+  }
+  .index-composition {
+    flex-direction: column;
+  }
+  .ration {
+    padding-top: 50px;
+  }
+  .ration-header {
+    background-image: none;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+  }
+  .title {
+    margin-bottom: 25px;
+  }
+  .ration-views {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .ration-view {
+    margin-bottom: 20px;
+  }
+  .quality-items {
+    flex-wrap: wrap;
+  }
+  .article-info {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
+    
+  }
+  .article-title {
+    background-image: none;
+  }
+  .article-img img {
+    width: 80%;
+  }
+
+  }
 @media (max-width: 900px) {
   .menu-list li + li {
     padding-left: 34px;
   }
-  
+  .calculate {
+    display: block;
+    padding: 25px 35px;
+  }
+  .calculate-text {
+    margin-bottom: 15px;
+  }
   
 }
 @media (max-width: 770px) {
@@ -545,7 +595,136 @@ textarea{
 @media (max-width: 700px) {
   .menu-list a {
     font-size: 13px;
-    
+}
+.menu-list {
+  flex-wrap: wrap;
+  margin-left: 10px;
+  }
+.header-title{
+    font-size: 40px;
+  }
+  .header-text {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+  .description-img img {
+    width: 100%;
+    text-align: center;
+  }
+  .description{
+    padding-top: 30px;
+  }
+  .description-text{
+    padding-top: 15px;
+  }
+  .title{
+    font-size: 35px;
+    margin-bottom: 8px;
+  }
+  .description-expl{
+    margin-bottom: 10px;
+  }
+  .description-expl p{
+    font-size: 13px;
+  }
+  .description-list{
+    padding-top: 10px;
+  }
+  .description-list-item{
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .index-boxes{
+    padding: 15px;
+  }
+  .ration {
+    margin-bottom: 25px;
+  }
+  .ration-text p {
+    font-size: 13px;
+  }
+  .calculate-text {
+    font-size: 18px;
+  }
+  .calculate-btn {
+    padding: 8px 25px;
+    font-size: 13px;
+  }
+  .quality {
+    margin-bottom: 25px;
+  }
+  .quality-title {
+    align-items: center;
+  }
+  .quality-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .quality-item p {
+    font-size: 13px;
+  }
+  .article-text p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 600px) {
+  .index-boxes{
+    flex-direction: column;
+    align-items: center;
+  }
+  .composition-item{
+    font-size: 13px;
+  }
+  .index-subtitle{
+    font-size: 12px;
+    margin: 0;
+  }
+  .ration {
+    padding-top: 30px;
+  }
+  .ration-views {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ration-view {
+    text-align: center;
+    font-size: 13px;
+  }
+  .view-name {
+    padding-top: 15px;
+  }
+  .view-size .view-sort {
+    margin-bottom: 10px;
+  }
+  .ration-btn {
+    padding: 4px 20px;
+  }
+  .calculate-text {
+    font-size: 13px;
+  }
+  .quality-item-img {
+    margin: 0;
+  }
+  .quality-subtitle {
+    font-size: 13px;
+  }
+  .article-text {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 380px) {
+  .menu-list a {
+    font-size: 10px;
+}
+.menu-list {
+  flex-wrap: wrap;
+}
+
+element.style {
+}
+.header-button {
+    padding: 8px 30px;
+    font-size: 14px;
 }
 
 }
