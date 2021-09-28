@@ -269,7 +269,7 @@ margin-bottom: 16px;
   color: #FFFFFF;
 }
 .quality {
-  background-image: url(../../img/Vector\ 1.svg);
+  /*background-image: url(../../img/Vector\ 1.svg);*/
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 180px;
@@ -315,7 +315,7 @@ margin-bottom: 16px;
   max-width: 523px;
 }
 .article-title{
-  background-image: url(../../img/vector\ article.svg);
+  background-image: url(../../img/article-img.svg);
   background-repeat: no-repeat;
   background-size: 8%;
   background-position: 92% 66%;
